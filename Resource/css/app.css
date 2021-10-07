@@ -1,0 +1,119 @@
+
+body{
+	background-color: rgb(240, 240, 240);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-shadow-style{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%) !important;
+}
+
+.img-banner-depype{
+    width: 100% !important;
+}
+
+.rounded-form{
+    border-radius: 6px !important;
+}
+
+.row{
+    margin-right: 0px !important;
+}
+
+.introduction-container{
+    background-color: white !important;
+}
+
+.container-text{
+    padding: 0 5% 0 5% !important;
+}
+
+.depype-img-banner-container{
+    margin: 3% 5% 0 5% !important;
+}
+
+.card-text{
+    text-align: justify !important;
+}
+
+.card-body-style{
+    margin: 3% 3% 5% 3% !important;
+}
+
+.card-title{
+    margin-bottom: 20px !important;
+}
+
+.card-depype-menu{
+    padding: 0 !important;
+}
+
+.tab-content-style{
+    padding: 2% 0 2% 0 !important;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+    border-left: 1px solid rgba(230, 230, 230, 1);
+    border-right: 1px solid rgba(230, 230, 230, 1);
+}
+
+.depype-nav-flush{
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+.depype-nav-item-inicio{
+    background-color: rgba(0, 123, 255, 1) !important;
+    color: white !important;
+    margin-right: 10px !important;
+}
+
+.depype-nav-item-inicio:hover{
+    background-color: rgba(0, 123, 255, 0.7) !important;
+    color: white !important;
+    margin-right: 10px !important;
+}
+
+.depype-nav-item{
+    border: 1px solid rgba(230, 230, 230, 1) !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.depype-nav-peeme{
+    background-color: rgba(216, 112, 147, 1) !important;
+    color: white !important;
+}
+
+.depype-nav-peeme:hover{
+    background-color: rgba(216, 112, 147, 0.8) !important;
+}
+
+.depype-nav-agenda{
+    background-color: rgba(255, 165, 0, 1) !important;
+    color: white;
+}
+
+.depype-nav-agenda:hover{
+    background-color: rgba(255, 165, 0, 0.8) !important;
+    color: white;
+}
+
+.depype-nav-evaluacion{
+    background-color: rgba(0, 180, 0, 1) !important;
+    color: white;
+}
+
+.depype-nav-evaluacion:hover{
+    background-color: rgba(0, 180, 0, 0.8) !important;
+    color: white;
+}
+
+.depype-nav-contraloria{
+    background-color: rgba(255, 0, 0, 1) !important;
+    color: white;
+}
+
+.depype-nav-contraloria:hover{
+    background-color: rgba(255, 0, 0, 0.5) !important;
+    color: white;
+}
+
