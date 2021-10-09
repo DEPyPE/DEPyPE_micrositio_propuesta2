@@ -1,7 +1,7 @@
 
     $(function(){
 //      $('.depype-menu .nav-item')[0].click();
-        $('.depype-menu .nav-link')[0].click();
+        
     });
 
     $('.depype-menu .nav-item').on('click', function(){

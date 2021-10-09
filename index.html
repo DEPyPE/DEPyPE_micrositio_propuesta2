@@ -40,11 +40,15 @@
         <div class="card box-shadow-style">
           <div class="card-body card-depype-menu card-body-style">
             <div class="nav flex-column nav-pills depype-menu"  id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link depype-nav-flush depype-nav-item active"  id="depype-inicio-tab" data-toggle="pill" href="#depype-inicio" role="tab" aria-controls="depype-inicio" aria-selected="true">Inicio</a>
-              <a class="nav-link depype-nav-flush depype-nav-item"  id="depype-peeme-tab" data-toggle="pill" href="#depype-peeme" role="tab" aria-controls="depype-peeme" aria-selected="false">Programa Estatal de Evaluación y Mejora Educativa (PEEME)</a>
-              <a class="nav-link depype-nav-flush depype-nav-item"  id="depype-agenda-anual-tab" data-toggle="pill" href="#depype-agenda-anual" role="tab" aria-controls="depype-agenda-anual" aria-selected="false">Agenda Anual de Evaluación de Programas y Proyectos Educativos</a>
-              <a class="nav-link depype-nav-flush depype-nav-item"  id="depype-evaluacion-pyp-tab" data-toggle="pill" href="#depype-evaluacion-pyp" role="tab" aria-controls="depype-evaluacion-pyp" aria-selected="false">Evaluación de Programas y Proyectos</a>
-              <a class="nav-link depype-nav-item"                   id="depype-contraloria-social-pyp-tab" data-toggle="pill" href="#depype-contraloria-social" role="tab" aria-controls="depype-contraloria-social" aria-selected="false">Contraloría Social</a>
+
+              <a class="nav-link depype-nav-flush depype-nav-item active"  id="depype-inicio-tab"                 data-toggle="pill" href="#depype-inicio"              role="tab" aria-controls="depype-inicio"              aria-selected="true">Inicio</a>
+              <a class="nav-link depype-nav-flush depype-nav-item"         id="depype-normativa-tab"              data-toggle="pill" href="#depype-normativa"           role="tab" aria-controls="depype-normativa"           aria-selected="false">Normativa</a>
+              <a class="nav-link depype-nav-flush depype-nav-item"         id="depype-agenda-anual-tab"           data-toggle="pill" href="#depype-agenda-anual"        role="tab" aria-controls="depype-agenda-anual"        aria-selected="false">Agenda Anual de Evaluación de Programas y Proyectos Educativos</a>
+              <a class="nav-link depype-nav-flush depype-nav-item"         id="depype-evaluacion-pyp-tab"         data-toggle="pill" href="#depype-evaluacion-pyp"      role="tab" aria-controls="depype-evaluacion-pyp"      aria-selected="false">Evaluación de Programas y Proyectos</a>
+              <a class="nav-link depype-nav-flush depype-nav-item"         id="depype-contraloria-social-pyp-tab" data-toggle="pill" href="#depype-contraloria-social"  role="tab" aria-controls="depype-contraloria-social"  aria-selected="false">Contraloría Social</a>
+              <a class="nav-link depype-nav-flush depype-nav-item"         id="depype-peeme-tab"                  data-toggle="pill" href="#depype-peeme"               role="tab" aria-controls="depype-peeme"               aria-selected="false">Programa Estatal de Evaluación y Mejora Educativa (PEEME)</a>
+              <a class="nav-link                  depype-nav-item"         id="depype-monitoreo-mejora-tab"       data-toggle="pill" href="#depype-monitoreo-mejora"    role="tab" aria-controls="depype-monitoreo_mejora"    aria-selected="false">Monitoreo y Mejora</a>
+            
             </div>
           </div>
         </div>
@@ -61,16 +65,35 @@
 
                 <div class="jumbotron jumbotron-fluid rounded-form box-shadow-style introduction-container ">
                   <div class="container-text">
-                    <h1 class="display- ">Evaluaciones educativas (Logro, aprendizaje y condiciones escolares)</h1><br> 
-                    <p class="lead">La Secretaría de Educación de Guanajuato a través de la Dirección General de Evaluación Educativa 
-                      ofrece diversos recursos de apoyo para la consulta de información sobre las evaluaciones educativas en el estado, como 
-                      lo son PLANEA (Plan Nacional para la Evaluación de los Aprendizajes), PISA (Programa para la Evaluación Internacional de 
-                      Alumnos) y ECEA (Evaluación de Condiciones Básicas para la Enseñanza y el Aprendizaje), entre otros.</p>
+                    <h1 class="display- ">Evaluación de Políticas y Programas Educativos</h1><br> 
+                    <p class="lead">
+                      Toda intervención pública tiene por objeto resolver un problema o atender una necesidad que sea de interés 
+                      público, en este sentido la evaluación de programas y proyectos educativos tiende a identificar la eficiencia 
+                      y eficacia, así como aportar elementos para su mejora. Con la finalidad de  identificar los impactos y 
+                      resultados de las políticas educativas, la Secretaría de Educación de Guanajuato pone a su disposición 
+                      los distintos procesos de evaluación de programas.
+                    </p>
                   </div>
+
                   
                   <div class="depype-img-banner-container">
                       <img class="img-banner-depype rounded-form box-shadow-style" src="https://www.seg.guanajuato.gob.mx/Investigadores/PublishingImages/general/Elementos%20sitios_banner%20resultados.png">
                   </div>
+                  
+                </div>
+
+              </div>
+
+              <div class="tab-pane fade" id="depype-normativa" role="tabpanel" aria-labelledby="depype-normativa-tab">
+
+                <div class="jumbotron jumbotron-fluid rounded-form box-shadow-style introduction-container ">
+                  <div class="container-text">
+                    <h3 class="display- "><strong>Normativa (BETA)</strong></h3><br>
+                    <p class="lead">
+                      Descripción de la normativa.
+                    </p>
+                  </div>
+                  
                 </div>
 
               </div>
@@ -132,8 +155,9 @@
                     <h3 class="card-title"> <strong> Agenda Anual de Evaluación de Programas y Proyectos Educativos </strong> </h3>
         
                     <p class="card-text">
-                      La agenda anual de evaluación indica las evaluaciones y tipos de evaluaciones a las que estarán sujetos los programas 
-                      y proyectos educativos, lo anterior en cumplimiento a las Reglas de Operación(ROP) y Programas Anuales de Trabajo(PAT).
+                      De acuerdo con las Facultades de la Dirección General de Evaluación Educativa y el art. 23, fracc. II  y art. 24, 
+                      fracc. IV del Reglamento interno de la Secretaría de Educación de Guanajuato, se emite la Agenda Anual de Evaluación 
+                      de Programas y Proyectos Educativos.
                     </p>
 
                     <!-- Nav tabs -->
@@ -197,13 +221,8 @@
                     <h4 class="card-title"> <strong> Evaluación de Programas y Proyectos </strong> </h4>
         
                     <p class="card-text">
-                        La Secretaría de Educación de Guanajuato a través de la Dirección de Evaluación de Logro y Procesos Educativos 
-                        de acuerdo a su Reglamento Interior, tiene por objetivo normar y coordinar la evaluación de las Políticas y 
-                        Programas Educativos, que se ejecutan en la entidad. La evaluación de los programas y proyectos y la política 
-                        educativa en general, es una herramienta fundamental para mejorar constantemente su desempeño y conocer cuáles 
-                        de las acciones son o no efectivas para resolver las grandes necesidades educativas. De acuerdo a lo anterior, 
-                        la Dirección General de Evaluación Educativa pone a su disposición el apartado Evaluación de Programas y Proyectos, 
-                        en el que publican los resultados de la evaluación de programas educativos y acciones de evaluación.
+                      Con base en la Agenda Anual de Evaluación de Programas y Proyectos Educativos, dar a conocer los resultados 
+                      de las evaluaciones de los programas y proyectos educativos federales y estatales.
                     </p>
 
                     <!-- Nav tabs -->
@@ -375,10 +394,10 @@
                     <h4 class="card-title"> <strong> Contraloría Social </strong> </h4>
         
                     <p class="card-text">
-                      La Dirección General de Evaluación Educativa en coordinación con la Secretaría de Transparencia y Rendición de Cuentas, 
-                      tienen como objetivo incorporar la figura de Contraloría Social en los programas sociales estatales y lograr su adecuada 
-                      operación. Para que de manera organizada, verifiquen el cumplimiento de las metas y la correcta aplicación de los recursos 
-                      públicos asignados a los programas de desarrollo social.
+                      La Secretaría de Educación de Guanajuato en coordinación con la Secretaría de Transparencia y Rendición de Cuentas, 
+                      tienen como objetivo incorporar la Contraloría Social en los programas sociales estatales y lograr su adecuada operación. 
+                      Para que de manera organizada, verifiquen el cumplimiento de las metas y la correcta aplicación de los recursos públicos 
+                      asignados a los programas de desarrollo social.
                     </p>
 
                     <!-- Nav tabs -->
@@ -454,6 +473,20 @@
                     </div>
         
                   </div>
+                </div>
+
+              </div>
+
+              <div class="tab-pane fade" id="depype-monitoreo-mejora" role="tabpanel" aria-labelledby="depype-monitoreo-mejora-tab">
+
+                <div class="jumbotron jumbotron-fluid rounded-form box-shadow-style introduction-container ">
+                  <div class="container-text">
+                    <h3 class="display- "><strong>Monitoreo y Mejora (BETA) </strong></h3><br>
+                    <p class="lead">
+                      Sistema de seguimiento de plan de mejora y posicionamiento de programas y proyectos sociales.
+                    </p>
+                  </div>
+                  
                 </div>
 
               </div>
